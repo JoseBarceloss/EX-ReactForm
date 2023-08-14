@@ -1,0 +1,50 @@
+{
+  "name": "sd-0x-exercise-react-form",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "16 || 18"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^8.20.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "vite --open",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage --watch=false",
+    "lint:styles": "npx stylelint '**/*.css'",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .ts,.tsx"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@swc/helpers": "^0.5.1",
+    "@trybe/eslint-config-frontend": "^1.11.3",
+    "@vitejs/plugin-react-swc": "^3.3.1",
+    "@vitest/coverage-c8": "^0.28.4",
+    "jsdom": "^21.1.0",
+    "stylelint": "^14.13.0",
+    "stylelint-order": "^5.0.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.3.8",
+    "vitest": "^0.31.1"
+  }
+}
