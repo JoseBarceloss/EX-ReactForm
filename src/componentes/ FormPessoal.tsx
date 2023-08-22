@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 // vou escrever no codigo porque estou com dificuldade em entender como a logica dos estados(useState) funciona!
 
-function Form() {
+function FormPessoal() {
   const [nome, setNome] = useState('');
   const [cpf, setCpf] = useState('');
   const [email, setEmail] = useState('');
@@ -67,4 +67,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default FormPessoal;
