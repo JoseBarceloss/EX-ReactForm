@@ -22,9 +22,7 @@ function Form() {
   // o codigo a baixo vai remover qualquer caractere que nao for numerico!!
 
   const pegaCPF = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const cleanedCpf = event.target.value.replace(/\D/g, '');
-
-    setCpf(cleanedCpf);
+    setCpf(event.target.value);
   };
 
   return (
