@@ -1,8 +1,8 @@
+import Form from './componentes/ Form';
+
 function App() {
   return (
-    <h1>
-      React Form
-    </h1>
+    <Form />
   );
 }
 
